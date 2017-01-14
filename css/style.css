@@ -11,7 +11,8 @@ h5,
 h6 {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+ /* font-family: "Roboto", sans-serif;*/
+  font-family: 'Source Code Pro', monospace;
 }
 
 .clear-fix {
@@ -25,8 +26,8 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
-  color: #f5a623;
+  font-size: 20px;
+  color: #348899;
   line-height: 48px;
   display: inline;
 }
@@ -35,7 +36,7 @@ h2 {
   font-weight: bold;
   font-size: 24px;
   color: #999;
-  line-height: 29px;
+ /* line-height: 29px;*/
   padding: 10px;
 }
 
@@ -67,7 +68,7 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: left;
+  float: right;
 }
 
 .location-text {
@@ -75,7 +76,8 @@ h5 {
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: right;
+
+  float: left;
 
 }
 
@@ -100,21 +102,23 @@ a {
 }
 
 #skills-h3 {
-  color: #f5ae23;
+  color: black;
+  font-size: 15px;
   display: none;
 }
 
 .orange {
-  background-color: #f5ae23;
+  background-color: #dc3522;
+   color: #fff;
 }
 
 .orange-text {
-  color: #f5ae23;
+  color: #fff;
 }
 
 .white-text {
   font-weight: bold;
-  color: #fff;
+  color: #2a2c2b;
 }
 
 .gray {
@@ -124,12 +128,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #f3f3f3;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #fff;
 }
 
 .flex-box {
@@ -159,12 +163,15 @@ ul {
 .biopic {
   float: left;
   padding: 10px;
-  width: 200px;
+  width:5%;
+  height:5%;
   display: none;
 }
 
 img {
   padding: 10px;
+  width: 25%;
+  height: 25%;
 }
 
 span {
@@ -184,8 +191,9 @@ span {
 }
 
 @media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
+.biopic {
+    width: 10%;
+    height: 10%;
   }
 }
 
@@ -193,9 +201,9 @@ span {
   #lets-connect {
     margin-top: 10%;
   }
-  .biopic {
+/*  .biopic {
     width: 150px;
-  }
+  }*/
   .welcome-message {
     display: none;
   }
@@ -209,7 +217,7 @@ span {
 
 #mapDiv {
   height: 400px;
-  width: 100%;
+  width: 50%;
   padding-bottom: 5%;
 }
 
